@@ -18,3 +18,7 @@ def uniform():
 @app.route('/api/normal')
 def normal():
     return {"value": np.random.normal()}
+	
+
+if __name__ == "__main__":
+    app.run(debug=True) #allows for realtime editing
